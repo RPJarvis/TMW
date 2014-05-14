@@ -1,0 +1,284 @@
+@font-face{
+	font-family: Gotham;
+	src: local('☺'),
+			 url('../_lib/fonts/gotham/Gotham-Medium.eot') format('eot'),
+			 url('../_lib/fonts/gotham/Gotham-Medium.woff') format('woff'),
+			 url('../_lib/fonts/gotham/Gotham-Medium.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: Gotham;
+	src: local('☺'),
+			 url('../_lib/fonts/gotham/Gotham-Bold.eot') format('eot'),
+			 url('../_lib/fonts/gotham/Gotham-Bold.woff') format('woff'),
+			 url('../_lib/fonts/gotham/Gotham-Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+}
+/*--- Box Model ---*/
+div, img, a, ul, li, span, p, input, textarea, form, header, 
+section, nav, article, progress, hgroup, footer, 
+figure, figcaption, summary, details, command, aside,
+h1, h2, h3, h4, blockquote{
+	outline: none;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+body{
+	background: #ffffff;
+	color: #666666;
+	font: normal 10pt "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+
+h1{
+	color: #7fc5e6;
+	font: bold 18pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+}
+h2{
+	color: #333333;
+	font: bold 10.5pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+}
+h3{
+	color: #7fc5e6;
+	font: bold 10pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+}
+a{
+	color: #b0b0b0;
+	text-decoration: none;
+}
+a:hover{color: #7fc5e6;}
+
+#container, #header, #bigSell, #about, #clients, #services, #partners, #contact, #footer{width: 100%;}
+#about, #clients, #services, #partners, #contact{
+	background: #f6f6f6;
+	border-bottom: solid 1px #eeeeee;
+	padding: 40px 0;
+}
+#about, #clients, #partners, #contact{
+	border-top: solid 1px #eeeeee;
+}
+#container, #bigSell, #about, #clients, #services, #partners, #contact, #footer, #innerContainer, #innerBigSell, #innerAbout, #innerClients, #innerServices, #innerContact,
+#innerPartners, #innerFooter{
+	position: relative;
+	z-index: 0;
+}
+#about, #clients, #services, #partners, #contact{padding-bottom: 60px;}
+#contact{margin-bottom: 600px;}
+
+#innerContainer, #innerHeader, #innerAbout, #innerClients, #innerServices, #innerContact,
+#innerPartners, #innerFooter{
+	margin: auto;
+	width: 1060px;
+}
+#innerBigSell{
+	margin: auto;
+	width: 1080px;
+}
+#header{
+	background: url('../_images/headerBack.jpg') repeat-x;
+	border-bottom: solid 1px #333333;
+	height: 60px;
+	position: fixed;
+	z-index: 10000;
+}
+#innerHeader{
+	position: relative;
+	z-index: 10000;
+}
+#logo{
+	background: url('../_images/logo.png') no-repeat;
+	cursor: pointer; 
+	float: left;
+	height: 100px;
+	margin-top: -1;
+	position: absolute;
+	width: 183px;
+}
+#menu{float: right;}
+#headerNav, .headerLink{
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#headerNav{
+	margin-top: 15px;
+}
+#headerNav li{
+	color: #7fc5e6;
+	float: left;
+	font: bold 10pt "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 20px;
+	padding: 0 0 10;
+	text-transform: capitalize;
+}
+#headerNav li.headerLink{
+	color: #dddddd;
+	cursor: pointer;
+	padding: 10 0 0;
+}
+#headerNav li.headerLink:hover{
+	color: #999999;
+}
+
+#bigSell{
+	background: url('../_images/patterns/1.jpg');
+	border-bottom: solid 1px #cccccc;
+	border-top: solid 1px #999999;
+	max-height: 520px;
+	padding: 100px 0 20px 0;
+	position: relative;
+}
+#innerBigSell{
+	/*background: #00aeef url('../_images/bigSellGlare.png') top center no-repeat;*/
+	height: 380px;
+	overflow: hidden;
+	position: relative;
+}
+#slideShow{
+	left: 0;
+	position: absolute;
+	width: 7560px;
+}
+.slideButton{
+	cursor: pointer;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 40px;
+}
+.slideButton[data-type="prev"]{
+	background: url('../_images/prevSlide.png') 50% 50% no-repeat;
+	left: 0;
+}
+.slideButton[data-type="next"]{
+	background: url('../_images/nextSlide.png') 50% 50% no-repeat;
+	right: 0;
+}
+
+#innerServices ul{
+	margin: 0;
+	padding: 0;
+}
+#innerServices ul li{
+	background: #ffffff;
+	border: solid 1px #eeeeee;
+	color: #7a7a7a;
+	margin-bottom: 20px;
+	padding: 0 20px 20px;
+	position: relative;
+	width: 340px;
+}
+#innerServices ul li .sectionNumber{
+	background: url('../_images/sectionNumber.png') no-repeat;
+	color: #ffffff;
+	font: bold 14pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height: 30px;
+	left: -15px;
+	padding: 5px 0 0 0;
+	position: absolute;
+	text-align: center;
+	top: -15px;
+	width: 30px;
+}
+#innerServices ul li h4{
+	background: #7fc5e6;
+	border-bottom: solid 1px #6ea9c5;
+	color: #ffffff;
+	font: bold 10.5pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 0 10px -20px;
+	padding: 5px 10px 5px 20px;
+	text-transform: uppercase;
+	width: 340px;
+}
+#innerServices ul li p{
+	margin-bottom: 0;
+}
+#innerServices ul li.left{
+	margin-right: 20px;
+}
+#innerServices .bigButton{
+	background: #c0e2f2;
+	border: solid 1px #7fc5e6;
+	color: #ffffff;
+	cursor: pointer;
+	display: block;
+	font: bold 18pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	float: right;
+	line-height: 18pt;
+	margin: 0;
+	padding: 70px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 340px;
+}
+#innerServices .bigButton:hover{
+	background: #7fc5e6;
+	border: solid 1px #6ea9c5;
+}
+
+#innerAbout .left{margin-right: 20px;}
+#innerAbout .about{
+	background: #ffffff;
+	border: solid 1px #eeeeee;
+	padding: 10px;
+	width: 520px;
+}
+
+.client h2.img, .partner h2.img{text-align: center;}
+
+#innerClients .client{
+	width: 520px;
+}
+#innerClients .client.left{
+	margin-right: 20px;
+}
+
+#innerPartners .partner{
+	width: 340px;
+}
+#innerPartners .partner.left{
+	margin-right: 20px;
+}
+
+blockquote{
+	background: #ffffff url('../_images/blockquoteBack.jpg') bottom right no-repeat;
+	border: solid 1px #eeeeee;
+	color: #999999;
+	display: block;
+	margin: 0 auto 20px;
+	padding: 20px 20px 10px;
+}
+blockquote p{
+	margin: 0 auto 10px;
+	padding: 0;
+}
+blockquote ul{
+	margin: 0 0 10px 25px;
+	padding: 0;
+}
+
+#contactForm{
+	width: 520px;
+}
+
+#footer{
+	background: #eeeeee;
+	border-top: solid 1px #cccccc;
+	color: #999999;
+	padding: 40px 0;
+	text-align: center;
+}
