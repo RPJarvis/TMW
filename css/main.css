@@ -1,0 +1,162 @@
+@font-face{
+	font-family: Gotham;
+	src: local('☺'),
+			 url('../_lib/fonts/gotham/Gotham-Medium.eot') format('eot'),
+			 url('../_lib/fonts/gotham/Gotham-Medium.woff') format('woff'),
+			 url('../_lib/fonts/gotham/Gotham-Medium.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: Gotham;
+	src: local('☺'),
+			 url('../_lib/fonts/gotham/Gotham-Bold.eot') format('eot'),
+			 url('../_lib/fonts/gotham/Gotham-Bold.woff') format('woff'),
+			 url('../_lib/fonts/gotham/Gotham-Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body{
+	background: #ffffff;
+	color: #666666;
+	font: normal 10pt "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.navbar {
+	background: #737373;
+}
+
+
+#top-container li a {
+	color: white;
+}
+
+#top-container li a:hover {
+	color: gray;
+
+}
+
+#top-container li a:active {
+	color: blue;
+}
+
+.carousel-caption{
+background-image: url(http://thousandmileswest.com/_images/patterns/4.jpg);>
+
+}
+
+
+#services2 {
+	text-align: center;
+
+}
+h1{
+	color: #7fc5e6;
+	font: bold 18pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+}
+h2{
+	color: #333333;
+	font: bold 10.5pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+}
+h3{
+	color: #4E83E4;
+	font: bold 14pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+}
+a{
+	color: #b0b0b0;
+	text-decoration: none;
+}
+a:hover{color: #7fc5e6;}
+
+#about, #clients, #services, #services2, #partners, #contact, #footer{
+	background: #f6f6f6;
+	border-bottom: solid 1px #eeeeee;
+	padding: 40px 0;
+}
+#about, #clients, #partners, #contact{
+	border-top: solid 1px #eeeeee;
+}
+
+#about, #clients, #services, #partners, #contact{padding-bottom: 60px;}
+#contact{margin-bottom: 100px;}
+
+#carouselContainer {
+	/*background: url('../images/patterns/1.jpg');*/
+	border-bottom: solid 1px #cccccc;
+	border-top: solid 1px #999999;
+}
+
+#innerServices ul li{
+	background: #ffffff;
+	border: solid 1px #eeeeee;
+	color: #7a7a7a;
+	margin-bottom: 20px;
+	padding: 0 20px 20px;
+	position: relative;
+	width: 340px;
+}
+#innerServices ul li .sectionNumber{
+	background: url('../_images/sectionNumber.png') no-repeat;
+	color: #ffffff;
+	font: bold 14pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height: 30px;
+	left: -15px;
+	padding: 5px 0 0 0;
+	position: absolute;
+	text-align: center;
+	top: -15px;
+	width: 30px;
+}
+#innerServices ul li h4{
+	background: #7fc5e6;
+	border-bottom: solid 1px #6ea9c5;
+	color: #ffffff;
+	font: bold 10.5pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 0 10px -20px;
+	padding: 5px 10px 5px 20px;
+	text-transform: uppercase;
+	width: 340px;
+}
+#innerServices ul li p{
+	margin-bottom: 0;
+}
+#innerServices ul li.left{
+	margin-right: 20px;
+}
+#innerServices .bigButton{
+	background: #c0e2f2;
+	border: solid 1px #7fc5e6;
+	color: #ffffff;
+	cursor: pointer;
+	display: block;
+	font: bold 18pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	float: right;
+	line-height: 18pt;
+	margin: 0;
+	padding: 70px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 340px;
+}
+#innerServices .bigButton:hover{
+	background: #7fc5e6;
+	border: solid 1px #6ea9c5;
+}
+
+.client h2.img, .partner h2.img{text-align: center;}
+
+
+#footer{
+	border-top: solid 1px #cccccc;
+	color: #999999;
+	padding: 40px 0;
+	text-align: center;
+}
