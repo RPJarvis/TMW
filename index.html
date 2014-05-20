@@ -31,7 +31,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="#main-container">
-                <img src="/tmw/images/logo.png" height="80" width="121">
+                <img src="/tmw/images/logo.png" height="100" width="150" style="margin-top: -12px; margin-left: -14px;">
               </a>
             </div>
 
@@ -50,8 +50,8 @@
           </div><!-- /.container-fluid -->
         </nav>
         <!--carousel-->
-        <div class="container-fluid" id="carousel-cotainer">
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="container-fluid" id="carousel-container">
+          <div id="myCarousel" class="carousel slide container-fluid" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -62,31 +62,32 @@
               <div class="active item" style="height:400px">
                 <div class="carousel-caption">
                   <div class="container-fluid">
-                    <img class="img-responsive" id="slide1" src="/tmw/images/slideshow/slide_3.jpg"  />
-                    <p>caption</p>
+                    <img class="img-responsive slide" id="slide1" src="/tmw/images/slideshow/slide_3.jpg"  />
                   </div>
                 </div>
               </div>
               <div class="item"  style="height:400px">
                 <div class="carousel-caption">
-                    <img class="img-responsive" src="/tmw/images/slideshow/slide_2.jpg" />
-                    <p>caption</p>
+                  <div class="container-fluid">
+                    <img class="img-responsive slide" src="/tmw/images/slideshow/slide_2.jpg" />
+                  </div>
                 </div>
               </div>
               <div class="item"  style="height:400px">
                 <div class="carousel-caption">
-                  <img class="img-responsive" src="/tmw/images/slideshow/slide_1.jpg" />
-                  <p>caption</p>
+                  <div class="container-fluid">
+                    <img class="img-responsive slide" src="/tmw/images/slideshow/slide_1.jpg" />
+                  </div>
                 </div>
               </div>
             </div>
             <!--carousel nav-->
             <a class="carousel-control left" href="#myCarousel" data-slide="prev"
-                style="background-image: none;">
+                style="opacity: 0;">
               <span class="glyphicon glyphicon-chevron-left"></span>
             </a>
             <a class="carousel-control right" href="#myCarousel" data-slide="next"
-                style="background-image: none;">
+                style="opacity: 0;">
               <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
           </div>
@@ -121,21 +122,32 @@
       <div class="container-fluid row">
         <!-- 3x3 grid -->
         <div class="col-md-4">
-          <h4>Customer Relationship Management</h4>
-          <p>TMW offers custom CRM and project management tools
-            designed and implemented across multiple platforms.</p>
+          <div class="serviceContainer container-fluid">
+            <h5 class="sectionNumber">1</h5>
+
+            <h4>Customer Relationship Management</h4>
+            <p>TMW offers custom CRM and project management tools
+              designed and implemented across multiple platforms.
+            </p>
+          </div>
         </div>
         <div class="col-md-4">
-          <h4>Data Management</h4>
-          <p>Eighty percent of businesses affected by major data
-            loss close within 18 months - don't let your company
-            become a statistic. We will help you set up redundant
-            backups for your data and, if necessary, move your
-            information off of your internal file servers and to
-            more secure and easily accessible cloud storage options.
-          </p>
+          <div class="serviceContainer container-fluid">
+            <h5 class="sectionNumber">2</h5>
+
+            <h4>Data Management</h4>
+            <p>Eighty percent of businesses affected by major data
+              loss close within 18 months - don't let your company
+              become a statistic. We will help you set up redundant
+              backups for your data and, if necessary, move your
+              information off of your internal file servers and to
+              more secure and easily accessible cloud storage options.
+            </p>
+          </div>
         </div>
         <div class="col-md-4">
+          <div class="sectionNumber">3</div>
+
           <h4>Proposal Tool</h4>
           <p>We offer a proprietary sales proposal tool that has
             been tested and proven in markets across the US. Our
@@ -148,17 +160,23 @@
       <!--services row two-->
       <div class="container-fluid row">
         <div class="col-md-4">
+          <div class="sectionNumber">4</div>
+
           <h4>Training</h4>
           <p>TMW offers comprehensive sales, operations, and management training.
           </p>
         </div>
         <div class="col-md-4">
+          <div class="sectionNumber">5</div>
+
           <h4>Photography</h4>
           <p>We offer professional photography services for use on your website
             or in marketing collateral.
           </p>
         </div>
         <div class="col-md-4">
+          <div class="sectionNumber">6</div>
+
           <h4>System Design</h4>
           <p>We can handle overflow solar system design work for submission
             to your local jurisdictions.
@@ -167,7 +185,9 @@
       </div>
       <!--services div row3-->
       <div class="container-fluid row">
+
         <div class="col-md-4">
+          <div class="sectionNumber">7</div>
           <h4>International Partners</h4>
           <p>We have relationships with leading solar panel manufacturers,
             including SunPower and Bosch/Aleo, to allow you to bill all or
@@ -175,6 +195,8 @@
           </p>
         </div>
         <div class="col-md-4">
+          <div class="sectionNumber">8</div>
+
           <h4>Advertising and Marketing</h4>
           <p>We offer support in planning, designing, and executing marketing
             campaigns. TMW will help you make the most of every single marketing
@@ -182,6 +204,8 @@
           </p>
         </div>
         <div class="col-md-4">
+          <div class="sectionNumber">9</div>
+
           <h4>Collateral</h4>
           <p>Great design on your marketing and tradeshow collateral is
             imperative. We work with you to maintain your previous brand
@@ -193,6 +217,8 @@
       <!--services div row4-->
       <div class="container-fluid row">
         <div class="col-md-4">
+          <div class="sectionNumber">10</div>
+
           <h4>Financing</h4>
           <p>Having a good financing or lease program is necessary in
             today's market. We can work with our national partners to
@@ -200,6 +226,8 @@
           </p>
         </div>
         <div class="col-md-4">
+          <div class="sectionNumber">11</div>
+
           <h4>Websites</h4>
           <p>Your website is the initial point of contact for many of your
             customers, make sure they get a good first impression. We can
@@ -210,9 +238,7 @@
           </p>
         </div>
         <div class="col-md-4" id="bigButton">
-          <h4>Get in Touch</h4>
-          <p>button here</p>
-        </div>
+          Get in Touch Today
       </div>
     </div>
     <div id="about" class="container-fluid">
@@ -311,7 +337,7 @@
       <p><a href="mailto: info@thousandmileswest.com">info@thousandmileswest.com</a></p>
     </div>
 
-    <footer>
+    <footer id="footer">
       <p>&copy Thousand Miles West</p>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

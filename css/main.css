@@ -1,3 +1,6 @@
+/*TODO: photoshop slides onto background and replace images with the result*/
+
+
 @font-face{
 	font-family: Gotham;
 	src: local('☺'),
@@ -18,7 +21,7 @@
 }
 
 body{
-	background: #ffffff;
+	background: #f6f6f6;
 	color: #666666;
 	font: normal 10pt "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -26,32 +29,46 @@ body{
 
 .navbar {
 	background: #737373;
+	margin-bottom: 90px;
+}
+
+#inner-container {
+	margin-top: 60px;
 }
 
 
 #top-container li a {
 	color: white;
+	font-size: 14.5px;
+	letter-spacing: .1em;
 }
 
 #top-container li a:hover {
-	color: gray;
-
+	color: #D3D3D3;
 }
 
 #top-container li a:active {
-	color: blue;
+	color: #7fc5e6;
 }
 
-.carousel-caption{
-background-image: url(http://thousandmileswest.com/_images/patterns/4.jpg);>
+.img-responsive {
+    margin: 0 auto;
+}
+
+.slide {
+	width: 97% !important;
+	height: 97% !important;
+}
+
+.carousel-caption {
+	left: 0;
+	right: 0;
+
+	background-image: url(http://thousandmileswest.com/_images/patterns/4.jpg);>
 
 }
 
 
-#services2 {
-	text-align: center;
-
-}
 h1{
 	color: #7fc5e6;
 	font: bold 18pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -65,7 +82,7 @@ h2{
 	text-transform: uppercase;
 }
 h3{
-	color: #4E83E4;
+	color: #7fc5e6;
 	font: bold 14pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0 0 10px;
 	text-transform: uppercase;
@@ -76,10 +93,15 @@ a{
 }
 a:hover{color: #7fc5e6;}
 
+
 #about, #clients, #services, #services2, #partners, #contact, #footer{
 	background: #f6f6f6;
 	border-bottom: solid 1px #eeeeee;
-	padding: 40px 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 40px;
+	text-align: center;
+
 }
 #about, #clients, #partners, #contact{
 	border-top: solid 1px #eeeeee;
@@ -94,15 +116,65 @@ a:hover{color: #7fc5e6;}
 	border-top: solid 1px #999999;
 }
 
-#innerServices ul li{
-	background: #ffffff;
-	border: solid 1px #eeeeee;
-	color: #7a7a7a;
-	margin-bottom: 20px;
-	padding: 0 20px 20px;
-	position: relative;
-	width: 340px;
+/*TODO: split section number into two divs, one for number one for title*/
+.sectionNumber{
+	background: #7fc5e6;
+	border-bottom: solid 1px #6ea9c5;
+	color: #ffffff;
+	margin: 0 0 0 0px;
+	padding: 5px 10px 5px 20px;
+	text-transform: uppercase;
 }
+
+.innerSectionNumber{
+	width: 24px;
+	border-radius: 24px 24px 24px 24px;
+	background: gray;
+	font: bold "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: small;
+}
+
+#bigButton {
+	background: #c0e2f2;
+	border: solid 1px #7fc5e6;
+	color: #ffffff;
+	cursor: pointer;
+	display: block;
+	font: bold 20pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 18pt;
+	margin: 0;
+	padding: 70px 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#bigButton:hover {
+	background: #7fc5e6;
+	border: solid 1px #7fc5e6;
+	color: #ffffff;
+	cursor: pointer;
+	display: block;
+	font: bold 20pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 18pt;
+	margin: 0;
+	padding: 70px 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+/*TODO: figure out how to fill the container row with this div, maybe
+with a static div??  */
+.serviceContainer {
+	background: white;
+	border: 1px solid;
+	border-color: #E5E5E4;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 100%;
+}
+
+/*
 #innerServices ul li .sectionNumber{
 	background: url('../_images/sectionNumber.png') no-repeat;
 	color: #ffffff;
@@ -125,38 +197,10 @@ a:hover{color: #7fc5e6;}
 	text-transform: uppercase;
 	width: 340px;
 }
-#innerServices ul li p{
-	margin-bottom: 0;
-}
-#innerServices ul li.left{
-	margin-right: 20px;
-}
-#innerServices .bigButton{
-	background: #c0e2f2;
-	border: solid 1px #7fc5e6;
-	color: #ffffff;
-	cursor: pointer;
-	display: block;
-	font: bold 18pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	float: right;
-	line-height: 18pt;
-	margin: 0;
-	padding: 70px 20px;
-	text-align: center;
-	text-transform: uppercase;
-	width: 340px;
-}
-#innerServices .bigButton:hover{
-	background: #7fc5e6;
-	border: solid 1px #6ea9c5;
-}
-
-.client h2.img, .partner h2.img{text-align: center;}
-
+*/
 
 #footer{
 	border-top: solid 1px #cccccc;
 	color: #999999;
-	padding: 40px 0;
 	text-align: center;
 }
