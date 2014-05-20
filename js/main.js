@@ -1,9 +1,7 @@
 $(document).ready(function(){
-  //TODO: consider expanding size opf list item erather than bumping
-  //padding for smoother effect
-
   //TODO: maybe think about creating array of image and array of background pics,
   //correlate and change background of carousel container for each image change
+  //TODO: onclick event for nav links to scroll using animate with speed and id - 60px??
   $('.headerLink').mouseover(function(){
     var width = $(window).width();
     if(width > 779)

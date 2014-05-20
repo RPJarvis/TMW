@@ -134,13 +134,31 @@ a:hover{color: #7fc5e6;}
 	font-size: small;
 }
 
+
+/*TODO: figure out how to fill the container row with this div, maybe
+with a static div?? or maybe jsut define height as a constant since that wont matter as much with fluidityt */
+.serviceContainer {
+	background: white;
+	border: 1px solid;
+	border-color: #E5E5E4;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 140px;
+	margin-bottom: 20px;
+}
+
+#buttonContainer {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 #bigButton {
 	background: #c0e2f2;
 	border: solid 1px #7fc5e6;
 	color: #ffffff;
 	cursor: pointer;
 	display: block;
-	font: bold 20pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: bold 18pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 18pt;
 	margin: 0;
 	padding: 70px 20px;
@@ -154,7 +172,7 @@ a:hover{color: #7fc5e6;}
 	color: #ffffff;
 	cursor: pointer;
 	display: block;
-	font: bold 20pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: bold 18pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 18pt;
 	margin: 0;
 	padding: 70px 20px;
@@ -163,16 +181,6 @@ a:hover{color: #7fc5e6;}
 }
 
 
-/*TODO: figure out how to fill the container row with this div, maybe
-with a static div??  */
-.serviceContainer {
-	background: white;
-	border: 1px solid;
-	border-color: #E5E5E4;
-	padding-left: 0px;
-	padding-right: 0px;
-	height: 100%;
-}
 
 /*
 #innerServices ul li .sectionNumber{
