@@ -34,6 +34,8 @@ body{
 
 #inner-container {
 	margin-top: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 
@@ -51,23 +53,35 @@ body{
 	color: #7fc5e6;
 }
 
+.navbar-brand {
+	margin-left: 10px !important;
+	margin-top: 10px;
+}
+
 .img-responsive {
     margin: 0 auto;
 }
 
 .slide {
-	width: 97% !important;
-	height: 97% !important;
+	width: 100% !important;
+	height: 100% !important;
 }
 
-.carousel-caption {
-	left: 0;
-	right: 0;
-
-	background-image: url(http://thousandmileswest.com/_images/patterns/4.jpg);>
-
+.container-fluid{
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
+#row1 #row2 #row3 #row4 {
+	height: 70px;
+}
+
+#navbar {
+
+		padding-right: 20px !important;
+}
 
 h1{
 	color: #7fc5e6;
@@ -110,10 +124,26 @@ a:hover{color: #7fc5e6;}
 #about, #clients, #services, #partners, #contact{padding-bottom: 60px;}
 #contact{margin-bottom: 100px;}
 
-#carouselContainer {
-	/*background: url('../images/patterns/1.jpg');*/
-	border-bottom: solid 1px #cccccc;
-	border-top: solid 1px #999999;
+#carousel-container {
+
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.carousel {
+	margin-right: 0px !important;
+	padding-right: 0px !important;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.slide{
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-right:0px;
+	padding-left: 0px;
 }
 
 /*TODO: split section number into two divs, one for number one for title*/
@@ -141,10 +171,22 @@ with a static div?? or maybe jsut define height as a constant since that wont ma
 	background: white;
 	border: 1px solid;
 	border-color: #E5E5E4;
-	padding-left: 0px;
-	padding-right: 0px;
+
 	height: 140px;
 	margin-bottom: 20px;
+}
+
+.aboutContainer {
+	background: white;
+	border: 1px solid;
+	border-color: #E5E5E4;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 140px;
+	margin-bottom: 20px;
+	width: 420px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #buttonContainer {
@@ -161,7 +203,7 @@ with a static div?? or maybe jsut define height as a constant since that wont ma
 	font: bold 18pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 18pt;
 	margin: 0;
-	padding: 70px 20px;
+	padding: 45px 20px;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -175,37 +217,10 @@ with a static div?? or maybe jsut define height as a constant since that wont ma
 	font: bold 18pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 18pt;
 	margin: 0;
-	padding: 70px 20px;
+	padding: 45px 20px;
 	text-align: center;
 	text-transform: uppercase;
 }
-
-
-
-/*
-#innerServices ul li .sectionNumber{
-	background: url('../_images/sectionNumber.png') no-repeat;
-	color: #ffffff;
-	font: bold 14pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	height: 30px;
-	left: -15px;
-	padding: 5px 0 0 0;
-	position: absolute;
-	text-align: center;
-	top: -15px;
-	width: 30px;
-}
-#innerServices ul li h4{
-	background: #7fc5e6;
-	border-bottom: solid 1px #6ea9c5;
-	color: #ffffff;
-	font: bold 10.5pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	margin: 0 0 10px -20px;
-	padding: 5px 10px 5px 20px;
-	text-transform: uppercase;
-	width: 340px;
-}
-*/
 
 #footer{
 	border-top: solid 1px #cccccc;

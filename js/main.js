@@ -1,6 +1,5 @@
 $(document).ready(function(){
-  //TODO: maybe think about creating array of image and array of background pics,
-  //correlate and change background of carousel container for each image change
+  //TODO: photoshop backgrounds on to pictures
   //TODO: onclick event for nav links to scroll using animate with speed and id - 60px??
   $('.headerLink').mouseover(function(){
     var width = $(window).width();
@@ -19,5 +18,11 @@ $(document).ready(function(){
    		 $(this).animate({'padding-top': 15, 'padding-bottom': 0}, 200);
       }
     }
+  });
+  $('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
   });
 });

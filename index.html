@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!--RESPONSIVE PICS IDEA
-  USE LESS TO MAKE AN IF STATEMENT TO CHANGE IMG SRC DEPENDING ON SCREENSIZE-->
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -31,13 +29,16 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="#main-container">
-                <img src="/tmw/images/logo.png" height="100" width="150" style="margin-top: -12px; margin-left: -14px;">
+                <img src="/tmw/images/logo.png" height="130" width="200"
+                  style="margin-top: -12px; margin-left: -14px;">
               </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar">
               <ul class="nav navbar-nav navbar-right">
+                <li><a></a></li>
+                <li><a></a></li>
                 <li><a href="#" class="headerLink">Home</a></li>
                 <li><a href="#services" class="headerLink">Services</a></li>
                 <li><a href="#about" class="headerLink">About</a></li>
@@ -50,7 +51,7 @@
           </div><!-- /.container-fluid -->
         </nav>
         <!--carousel-->
-        <div class="container-fluid" id="carousel-container">
+      <!--  <div class="container-fluid" id="carousel-container">-->
           <div id="myCarousel" class="carousel slide container-fluid" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -58,25 +59,25 @@
               <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
             <!--items-->
-            <div class="carousel-inner row">
+            <div class="carousel-inner container-fluid row">
               <div class="active item" style="height:400px">
-                <div class="carousel-caption">
+                <div class="carousel">
                   <div class="container-fluid">
                     <img class="img-responsive slide" id="slide1" src="/tmw/images/slideshow/slide_3.jpg"  />
                   </div>
                 </div>
               </div>
               <div class="item"  style="height:400px">
-                <div class="carousel-caption">
+                <div class="carousel">
                   <div class="container-fluid">
                     <img class="img-responsive slide" src="/tmw/images/slideshow/slide_2.jpg" />
                   </div>
                 </div>
               </div>
               <div class="item"  style="height:400px">
-                <div class="carousel-caption">
+                <div class="carousel">
                   <div class="container-fluid">
-                    <img class="img-responsive slide" src="/tmw/images/slideshow/slide_1.jpg" />
+                    <img class="img-responsive slide" src="/tmw/images/slideshow/slide_4.jpg" />
                   </div>
                 </div>
               </div>
@@ -91,7 +92,7 @@
               <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
           </div>
-        </div>
+        <!--</div>-->
       </div>
     </div>
     <!-- services-->
@@ -119,13 +120,11 @@
     </div>
     <div id="services2" class="container-fluid">
       <!--services row1-->
-      <div class="container-fluid row">
+      <div class="container-fluid row" id="row1">
         <!-- 3x3 grid -->
         <div class="col-md-4">
-          <div class="serviceContainer container-fluid">
-            <h5 class="sectionNumber">1</h5>
-
-            <h4>Customer Relationship Management</h4>
+          <div class="serviceContainer">
+            <h5 class="sectionNumber">Customer Relationship Management</h5>
             <p>TMW offers custom CRM and project management tools
               designed and implemented across multiple platforms.
             </p>
@@ -133,8 +132,7 @@
         </div>
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
-            <h5 class="sectionNumber">2</h5>
-            <h4>Data Management</h4>
+            <h5 class="sectionNumber">Data Management</h5>
             <p>Eighty percent of businesses affected by major data
               loss close within 18 months - don't let your company
               become a statistic. We will help you set up redundant
@@ -146,8 +144,7 @@
         </div>
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
-            <h5 class="sectionNumber">3</h5>
-            <h4>Proposal Tool</h4>
+            <h5 class="sectionNumber">Proposal Tool</h5>
             <p>We offer a proprietary sales proposal tool that has
               been tested and proven in markets across the US. Our
               tool is customized to your business when you sign up
@@ -158,19 +155,17 @@
         </div>
       </div>
       <!--services row two-->
-      <div class="container-fluid row">
+      <div class="container-fluid row" id="row2">
         <div class="col-md-4">
-          <div class="serviceContainer container-fluid">
-            <h5 class="sectionNumber">4</h5>
-            <h4>Training</h4>
+          <div class="serviceContainer container-fluid" id="row2">
+            <h5 class="sectionNumber">Training</h5>
             <p>TMW offers comprehensive sales, operations, and management training.
             </p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
-            <h5 class="sectionNumber">5</h5>
-            <h4>Photography</h4>
+            <h5 class="sectionNumber">Photography</h5>
             <p>We offer professional photography services for use on your website
               or in marketing collateral.
             </p>
@@ -178,8 +173,7 @@
         </div>
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
-            <h5 class="sectionNumber">6</h5>
-            <h4>System Design</h4>
+            <h5 class="sectionNumber">System Design</h5>
             <p>We can handle overflow solar system design work for submission
               to your local jurisdictions.
             </p>
@@ -187,11 +181,10 @@
         </div>
       </div>
       <!--services div row3-->
-      <div class="container-fluid row">
+      <div class="container-fluid row" id="row3">
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
-            <h5 class="sectionNumber">7</h5>
-            <h4>International Partners</h4>
+            <h5 class="sectionNumber">International Partners</h5>
             <p>We have relationships with leading solar panel manufacturers,
               including SunPower and Bosch/Aleo, to allow you to bill all or
               part of our services through market development funds.
@@ -200,8 +193,7 @@
         </div>
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
-            <h5 class="sectionNumber">8</h5>
-            <h4>Advertising and Marketing</h4>
+            <h5 class="sectionNumber">Advertising and Marketing</h5>
             <p>We offer support in planning, designing, and executing marketing
               campaigns. TMW will help you make the most of every single marketing
               dollar.
@@ -210,8 +202,7 @@
         </div>
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
-            <h5 class="sectionNumber">9</h5>
-            <h4>Collateral</h4>
+            <h5 class="sectionNumber">Collateral</h5>
             <p>Great design on your marketing and tradeshow collateral is
               imperative. We work with you to maintain your previous brand
               identity while designing convincing fliers, trifolds, or even
@@ -221,11 +212,10 @@
         </div>
       </div>
       <!--services div row4-->
-      <div class="container-fluid row">
+      <div class="container-fluid row" id="row4">
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
-            <h5 class="sectionNumber">10</h5>
-            <h4>Financing</h4>
+            <h5 class="sectionNumber">Financing</h5>
             <p>Having a good financing or lease program is necessary in
               today's market. We can work with our national partners to
               help you offer your customers more options.
@@ -234,12 +224,11 @@
         </div>
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
-            <h5 class="sectionNumber">11</h5>
-            <h4>Websites</h4>
+            <h5 class="sectionNumber">Websites</h5>
             <p>Your website is the initial point of contact for many of your
               customers, make sure they get a good first impression. We can
               build you an entirely new website or work with you to bring your
-              current website up to date. We will make sure you are doing
+              current website up to date, and make sure you are doing
               everything you can to outrank your competitors on Google and
               other search engines.
             </p>
@@ -255,39 +244,43 @@
       <h3>Who we Are</h3>
       <div class="col-md-6">
         <img src="/tmw/images/james.png" height="150" width="420"/>
-        <p>An Entrepreneur from UNM's Anderson School of Management and
-          former Director of Business Development at Consolidated Solar
-          Technologies. James has helped solar integrators around the
-          country discover and address their needs in an ever changing
-          solar economic climate.
-        </p>
+        <div class="aboutContainer">
+          <p>An Entrepreneur from UNM's Anderson School of Management and
+            former Director of Business Development at Consolidated Solar
+            Technologies. James has helped solar integrators around the
+            country discover and address their needs in an ever changing
+            solar economic climate.
+          </p>
+        </div>
       </div>
       <div class="col-md-6">
         <img src="/tmw/images/nick.png" height="150" width="420" />
-        <p>BA in Mass Communication - Advertising, Former Head of IT and
-          Marketing Director for Consolidated Solar Technologies. Currently
-          Partner at Thousand Miles West
-        </p>
+        <div class="aboutContainer">
+          <p>BA in Mass Communication - Advertising, Former Head of IT and
+            Marketing Director for Consolidated Solar Technologies. Currently
+            Partner at Thousand Miles West
+          </p>
+        </div>
       </div>
     </div>
     <div id="clients" class="container-fluid">
       <h3>Clients</h3>
       <div class="container-fluid row">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <img src="/tmw/images/dwelltech.png" />
           <p>Dwelltek</p>
         </div>
-        <div class="col-md-6">
+      </div>
+      <div class="container-fluid row">
+        <div class="col-md-4">
           <img src="/tmw/images/borderSolar.png" />
           <p>Border Solar</p>
         </div>
-      </div>
-      <div class="container-fluid row">
-        <div class="col-md-6">
+        <div class="col-md-4">
           <img src="/tmw/images/joule.png" />
           <p>Joule Energy</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <img src="/tmw/images/sunValleySolar.png" />
           <p>sun valley solutions</p>
         </div>
