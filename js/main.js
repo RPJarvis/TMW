@@ -23,6 +23,7 @@ $(document).ready(function(){
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
+    /*TODO:CSS JQUERY HERE TO HANGE LINK TO BLUE*/
     return false;
   });
 });

@@ -32,6 +32,7 @@ body{
 	margin-bottom: 90px;
 }
 
+
 #inner-container {
 	margin-top: 60px;
 	padding-left: 0px;
@@ -79,8 +80,8 @@ body{
 }
 
 #navbar {
-
 		padding-right: 20px !important;
+		margin-top: 10px;
 }
 
 h1{
@@ -222,8 +223,31 @@ with a static div?? or maybe jsut define height as a constant since that wont ma
 	text-transform: uppercase;
 }
 
+.partnerContainer {
+	padding-top: 18px;
+	background: white;
+	border: 1px solid;
+	border-color: #E5E5E4;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+
+.clientContainer {
+	padding-top: 18px;
+	background: white;
+	border: 1px solid;
+	border-color: #E5E5E4;
+	margin-bottom: 20px;
+}
+
 #footer{
 	border-top: solid 1px #cccccc;
 	color: #999999;
 	text-align: center;
+}
+
+.alignLeft {
+	text-align: left;
 }
