@@ -1,6 +1,5 @@
 $(document).ready(function(){
   //TODO: photoshop backgrounds on to pictures
-  //TODO: onclick event for nav links to scroll using animate with speed and id - 60px??
   $('.headerLink').mouseover(function(){
     var width = $(window).width();
     if(width > 779)
@@ -19,11 +18,17 @@ $(document).ready(function(){
       }
     }
   });
-  $('a').click(function(){
+
+  //TODO: make link padding stick
+  $('li a').click(function() {
     $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
+        scrollTop: $($.attr(this, 'href')).offset().top
     }, 500);
-    /*TODO:CSS JQUERY HERE TO HANGE LINK TO BLUE*/
+
+    $(this).closest('ul').find('.selected').removeClass('selected');
+    $(this).addClass('selected');
+    //Modify css here??
+
     return false;
   });
 });
