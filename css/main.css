@@ -13,15 +13,16 @@
 			 url('../_lib/fonts/gotham/Gotham-Bold.eot') format('eot'),
 			 url('../_lib/fonts/gotham/Gotham-Bold.woff') format('woff'),
 			 url('../_lib/fonts/gotham/Gotham-Bold.otf') format('opentype');
-	font-weight: bold;
+
 	font-style: normal;
 }
 
 body{
 	background: #f6f6f6;
 	color: #666666;
-	font: normal 10pt "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+	font-family: Gotham;
+	/*font: normal 12pt "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-size: 12pt;
 }
 
 .navbar {
@@ -168,9 +169,7 @@ with a static div?? or maybe jsut define height as a constant since that wont ma
 	background: white;
 	border: 1px solid;
 	border-color: #E5E5E4;
-	height: 140px;
 	margin-bottom: 20px;
-
 }
 
 .textFormat {
@@ -185,21 +184,14 @@ with a static div?? or maybe jsut define height as a constant since that wont ma
 	border-color: #E5E5E4;
 	padding-left: 10px;
 	padding-right: 10px;
-	height: 90px;
 	margin-bottom: 20px;
 	width: 420px;
 	margin-right: auto;
 	margin-left: auto;
 }
 
-.number {
-	margin-left: -30px;
-	margin-top: -30px;
-}
-
 .selected {
 	color: #7fc5e6 !important;
-
 }
 
 #buttonContainer {
