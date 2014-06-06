@@ -29,8 +29,8 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="#">
-                <img src="/tmw/images/logo.png" height="120" width="170"
-                  style="margin-top: -12px; margin-left: -14px;">
+                <img src="/tmw/images/logo.png" height="100" width="145"
+                  style="margin-top: -10px; margin-left: -12px;">
               </a>
             </div>
 
@@ -39,13 +39,13 @@
               <ul class="nav navbar-nav navbar-right">
                 <li><a></a></li>
                 <li><a></a></li>
-                <li><a href="#" class="headerLink">Home</a></li>
+                <li><a href="#top-container" class="headerLink selected">Home</a></li>
                 <li><a href="#services" class="headerLink">Services</a></li>
                 <li><a href="#about" class="headerLink">About</a></li>
                 <li><a href="#clients" class="headerLink">Clients</a></li>
                 <li><a href="#partners" class="headerLink">Partners</a></li>
                 <li><a href="#contact" class="headerLink">Contact</a></li>
-                <li><a href="#" class="headerLink">Login</a></li>
+                <li><a href="http://proposals.thousandmileswest.com/login" class="headerLink">Login</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -63,7 +63,7 @@
               <div class="active item" style="height:400px">
                 <div class="carousel">
                   <div class="container-fluid">
-                    <img class="img-responsive slide" id="slide1" src="/tmw/images/slideshow/slide_3.jpg"  />
+                    <img class="img-responsive slide" id="slide1" src="/tmw/images/slideshow/slide_1.jpg"  />
                   </div>
                 </div>
               </div>
@@ -77,7 +77,28 @@
               <div class="item"  style="height:400px">
                 <div class="carousel">
                   <div class="container-fluid">
+                    <img class="img-responsive slide" src="/tmw/images/slideshow/slide_3.jpg" />
+                  </div>
+                </div>
+              </div>
+              <div class="item"  style="height:400px">
+                <div class="carousel">
+                  <div class="container-fluid">
                     <img class="img-responsive slide" src="/tmw/images/slideshow/slide_4.jpg" />
+                  </div>
+                </div>
+              </div>
+              <div class="item"  style="height:400px">
+                <div class="carousel">
+                  <div class="container-fluid">
+                    <img class="img-responsive slide" src="/tmw/images/slideshow/slide_5.jpg" />
+                  </div>
+                </div>
+              </div>
+              <div class="item"  style="height:400px">
+                <div class="carousel">
+                  <div class="container-fluid">
+                    <img class="img-responsive slide" src="/tmw/images/slideshow/slide_6.jpg" />
                   </div>
                 </div>
               </div>
@@ -98,26 +119,29 @@
     <!-- services-->
     <div id="services" class="container-fluid">
       <h3>What We Do</h3>
-      <p>
-        TMW offers a wide variety of customized options designed to help
-         solar integrators grow. Especially in today's tough economic
-         situation, unfortunately a climate where innovation is often pushed
-          aside or simply taken off the agenda as some organizations struggle
-          to stay afloat, successful companies need to stay focused on new
-          ideas to succeed.
-          <br /><br />
-          TMW is committed to growth and innovation. We specialize in working with
-          small, rapidly growing solar integrators in upcoming markets elegantly
-          handle scaling issues and in helping larger solar integrators whose
-          growth has recently been stagnating deal with the rapidly changing
-          market situations involved in the solar business today. When you work
-          with TMW we first need to do a site visit of your offices to analyze
-          the strengths and weaknesses of your company. Before the site visit
-          we perform extensive market and opposition research on your market
-          area. After the visit we write up a proposal detailing
-          bottlenecks/procedural errors we encountered and recommend fixes.
-      </p>
+      <div class="textStyle" id="whatWeDo">
+        <p class="textFormat">
+          TMW offers a wide variety of customized options designed to help
+           solar integrators grow. Especially in today's tough economic
+           situation, unfortunately a climate where innovation is often pushed
+            aside or simply taken off the agenda as some organizations struggle
+            to stay afloat, successful companies need to stay focused on new
+            ideas to succeed.
+            <br /><br />
+            TMW is committed to growth and innovation. We specialize in working with
+            small, rapidly growing solar integrators in upcoming markets elegantly
+            handle scaling issues and in helping larger solar integrators whose
+            growth has recently been stagnating deal with the rapidly changing
+            market situations involved in the solar business today. When you work
+            with TMW we first need to do a site visit of your offices to analyze
+            the strengths and weaknesses of your company. Before the site visit
+            we perform extensive market and opposition research on your market
+            area. After the visit we write up a proposal detailing
+            bottlenecks/procedural errors we encountered and recommend fixes.
+        </p>
+      </div>
     </div>
+    <!--TODO: divide these into rows and refactor so that rows have similar size boxes-->
     <div id="services2" class="container-fluid">
       <!--services row1-->
       <div class="container-fluid row" id="row1">
@@ -127,7 +151,7 @@
 
             <h5 class="sectionNumber">Customer Relationship Management</h5>
 
-            <p>TMW offers custom CRM and project management tools
+            <p class="textFormat">TMW offers custom CRM and project management tools
               designed and implemented across multiple platforms.
             </p>
           </div>
@@ -135,7 +159,7 @@
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
             <h5 class="sectionNumber">Data Management</h5>
-            <p>Eighty percent of businesses affected by major data
+            <p class="textFormat">Eighty percent of businesses affected by major data
               loss close within 18 months - don't let your company
               become a statistic. We will help you set up redundant
               backups for your data and, if necessary, move your
@@ -147,7 +171,7 @@
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
             <h5 class="sectionNumber">Proposal Tool</h5>
-            <p>We offer a proprietary sales proposal tool that has
+            <p class="textFormat">We offer a proprietary sales proposal tool that has
               been tested and proven in markets across the US. Our
               tool is customized to your business when you sign up
               and hosted on our website so you and your customers can
@@ -161,14 +185,14 @@
         <div class="col-md-4">
           <div class="serviceContainer container-fluid" id="row2">
             <h5 class="sectionNumber">Training</h5>
-            <p>TMW offers comprehensive sales, operations, and management training.
+            <p class="textFormat">TMW offers comprehensive sales, operations, and management training.
             </p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
             <h5 class="sectionNumber">Photography</h5>
-            <p>We offer professional photography services for use on your website
+            <p class="textFormat">We offer professional photography services for use on your website
               or in marketing collateral.
             </p>
           </div>
@@ -187,7 +211,7 @@
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
             <h5 class="sectionNumber">International Partners</h5>
-            <p>We have relationships with leading solar panel manufacturers,
+            <p class="textFormat">We have relationships with leading solar panel manufacturers,
               including SunPower and Bosch/Aleo, to allow you to bill all or
               part of our services through market development funds.
             </p>
@@ -196,7 +220,7 @@
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
             <h5 class="sectionNumber">Advertising and Marketing</h5>
-            <p>We offer support in planning, designing, and executing marketing
+            <p class="textFormat">We offer support in planning, designing, and executing marketing
               campaigns. TMW will help you make the most of every single marketing
               dollar.
             </p>
@@ -205,7 +229,7 @@
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
             <h5 class="sectionNumber">Collateral</h5>
-            <p>Great design on your marketing and tradeshow collateral is
+            <p class="textFormat">Great design on your marketing and tradeshow collateral is
               imperative. We work with you to maintain your previous brand
               identity while designing convincing fliers, trifolds, or even
               business cards.
@@ -218,7 +242,7 @@
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
             <h5 class="sectionNumber">Financing</h5>
-            <p>Having a good financing or lease program is necessary in
+            <p class="textFormat">Having a good financing or lease program is necessary in
               today's market. We can work with our national partners to
               help you offer your customers more options.
             </p>
@@ -227,7 +251,7 @@
         <div class="col-md-4">
           <div class="serviceContainer container-fluid">
             <h5 class="sectionNumber">Websites</h5>
-            <p>Your website is the initial point of contact for many of your
+            <p class="textFormat">Your website is the initial point of contact for many of your
               customers, make sure they get a good first impression. We can
               build you an entirely new website or work with you to bring your
               current website up to date, and make sure you are doing
@@ -247,7 +271,7 @@
       <div class="col-md-6">
         <img src="/tmw/images/james.png" height="150" width="420"/>
         <div class="aboutContainer">
-          <p>An Entrepreneur from UNM's Anderson School of Management and
+          <p class="textFormat">An Entrepreneur from UNM's Anderson School of Management and
             former Director of Business Development at Consolidated Solar
             Technologies. James has helped solar integrators around the
             country discover and address their needs in an ever changing
@@ -258,7 +282,7 @@
       <div class="col-md-6">
         <img src="/tmw/images/nick.png" height="150" width="420" />
         <div class="aboutContainer">
-          <p>BA in Mass Communication - Advertising, Former Head of IT and
+          <p class="textFormat">BA in Mass Communication - Advertising, Former Head of IT and
             Marketing Director for Consolidated Solar Technologies. Currently
             Partner at Thousand Miles West
           </p>
@@ -329,8 +353,8 @@
           <div class="partnerContainer">
             <img src="/tmw/images/box.png" />
             <h4>Box</h4>
-            <p>Reinventing how the world uses business content
-              <br />
+            <p class="textFormat">Reinventing how the world uses business content
+              <br /><br />
               Box was founded on a simple, powerful idea: people should be
               able to access and share their content from anywhere. Since 2005,
               Box has helped more than 10 million individuals, small businesses
@@ -345,9 +369,9 @@
           <div class="partnerContainer">
             <img src="/tmw/images/smartZip.png" />
             <h4>Smartzip</h4>
-            <p>SmartZip Analytics, Inc. is the national leader in the emerging
+            <p class="textFormat">SmartZip Analytics, Inc. is the national leader in the emerging
               field of predictive marketing for businesses of all kinds.
-              <br />
+              <br /><br />
               SmartZip's Predictive Marketing Platform is a breakthrough solution
               that combines the power of predictive analytics with preemptive
               marketing. This powerful solution is ideal for businesses that sell
@@ -355,19 +379,19 @@
               providers, high value home service providers, and many others.
               These businesses use SmartZip to focus their efforts, accelerate
               their leads and grow their market share.
-              <br />
+              <br /><br />
               As a venture-funded company, backed by Intel Capital, we have
               assembled one of the most comprehensive predictive marketing
               platforms. Our property-level database has hundreds of distinct
               variables on over 80 million residential homes across 56,000 U.S.
               neighborhoods.
-              <br />
+              <br /><br />
               Over 300 solar companies, lenders, and real estate professionals
               rely on SmartZip to reach top prospects early and accelerate sales.
               SmartZip predictive marketing solutions are deployed nationally by
               industry segment and licensed to local and national market leaders
               on a territory basis.
-              <br />
+              <br /><br />
               SmartZip is a privately held corporation, backed by Intel Capital
               and headquartered in Pleasanton, CA.
             </p>
@@ -379,7 +403,6 @@
       <h3>Contact</h3>
       <p><a href="mailto: info@thousandmileswest.com">info@thousandmileswest.com</a></p>
     </div>
-
     <footer id="footer">
       <p>&copy 2014 Thousand Miles West</p>
     </footer>
@@ -389,6 +412,5 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
     <script src="/tmw/js/main.js"></script>
-
   </body>
 </html>

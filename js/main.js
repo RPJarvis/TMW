@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  //TODO: photoshop backgrounds on to pictures
   $('.headerLink').mouseover(function(){
     var width = $(window).width();
     if(width > 779)
