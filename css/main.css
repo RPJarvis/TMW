@@ -1,27 +1,8 @@
-@font-face{
-	font-family: Gotham;
-	src: local('☺'),
-			 url('../_lib/fonts/gotham/Gotham-Medium.eot') format('eot'),
-			 url('../_lib/fonts/gotham/Gotham-Medium.woff') format('woff'),
-			 url('../_lib/fonts/gotham/Gotham-Medium.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face{
-	font-family: Gotham;
-	src: local('☺'),
-			 url('../_lib/fonts/gotham/Gotham-Bold.eot') format('eot'),
-			 url('../_lib/fonts/gotham/Gotham-Bold.woff') format('woff'),
-			 url('../_lib/fonts/gotham/Gotham-Bold.otf') format('opentype');
-
-	font-style: normal;
-}
 
 body{
 	background: #f6f6f6;
 	color: #666666;
-	font-family: Gotham;
-	/*font: normal 12pt "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family:"Georgia", sans-serif;
 	font-size: 12pt;
 }
 
@@ -32,6 +13,7 @@ body{
 
 .nav li a {
 	text-align: center;
+	font: normal 12pt "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #inner-container {
