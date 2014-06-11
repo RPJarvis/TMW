@@ -58,6 +58,22 @@ body{
 	height: 70px;
 }
 
+#row1 div div {
+	height: 200px;
+}
+
+#row2 div div {
+	height: 110px;
+}
+
+#row3 div div {
+	height: 170px;
+}
+
+#row4 div div {
+	height: 260px;
+}
+
 #navbar {
 		padding-right: 20px !important;
 		padding-top: 10px;
@@ -69,6 +85,7 @@ h1{
 	margin: 0 0 10px;
 	text-transform: uppercase;
 }
+
 h2{
 	color: #333333;
 	font: bold 10.5pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -167,10 +184,18 @@ with a static div?? or maybe jsut define height as a constant since that wont ma
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-bottom: 20px;
-	width: 420px;
-	margin-right: auto;
-	margin-left: auto;
+margin-right: auto;
+margin-left: auto;
+	max-width: 520px;
 }
+
+.aboutUpper {
+	max-width: 520px;
+
+}
+
+/*TODO:520 PIXELS IMAGE WIDTH, for <p> or <div>??max-width? */
+
 
 .selected {
 	color: #7fc5e6 !important;
@@ -204,7 +229,7 @@ with a static div?? or maybe jsut define height as a constant since that wont ma
 	font: bold 18pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 18pt;
 	margin: 0;
-	padding: 45px 20px;
+	padding: 45px 20px 60px;
 	text-align: center;
 	text-transform: uppercase;
 }
