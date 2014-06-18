@@ -18,7 +18,14 @@ $(document).ready(function(){
     }
   });
 
-  //TODO: make link padding stick
+
+  //TODO:this is focusing in li item rather than link item maybe use li a active insterad of javascrizipt q
+  $('#navbar').on('activate.bs.scrollspy', function(){
+    $(this).closest('ul').find('.selected').removeClass('selected');
+    $(this).addClass('selected');
+  })
+
+  //TODO: make link padding stick, link scrolling with links without clicks
   $('li a').click(function() {
     $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top

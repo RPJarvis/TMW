@@ -1,4 +1,3 @@
-
 body{
 	background: #f6f6f6;
 	color: #666666;
@@ -9,6 +8,10 @@ body{
 .navbar {
 	background: #737373;
 	margin-bottom: 90px;
+}
+
+.navbar-toggle {
+	margin-right: 30px;
 }
 
 .nav li a {
@@ -108,10 +111,10 @@ a:hover{color: #7fc5e6;}
 #about, #clients, #services, #services2, #partners, #contact, #footer{
 	background: #f6f6f6;
 	border-bottom: solid 1px #eeeeee;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
 	padding-top: 40px;
-	text-align: center;
+  text-align: center;
 
 }
 #about, #clients, #partners, #contact{
@@ -143,7 +146,6 @@ a:hover{color: #7fc5e6;}
 	padding-left: 0px;
 }
 
-/*TODO: split section number into two divs, one for number one for title*/
 .sectionNumber{
 	background: #7fc5e6;
 	border-bottom: solid 1px #6ea9c5;
@@ -161,9 +163,6 @@ a:hover{color: #7fc5e6;}
 	font-size: small;
 }
 
-
-/*TODO: figure out how to fill the container row with this div, maybe
-with a static div?? or maybe jsut define height as a constant since that wont matter as much with fluidityt */
 .serviceContainer {
 	background: white;
 	border: 1px solid;
@@ -177,6 +176,7 @@ with a static div?? or maybe jsut define height as a constant since that wont ma
 	padding-right: 10px;
 	padding-top: 8px;
 }
+
 .aboutContainer {
 	background: white;
 	border: 1px solid;
@@ -184,8 +184,8 @@ with a static div?? or maybe jsut define height as a constant since that wont ma
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-bottom: 20px;
-margin-right: auto;
-margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
 	max-width: 520px;
 }
 
@@ -193,9 +193,6 @@ margin-left: auto;
 	max-width: 520px;
 
 }
-
-/*TODO:520 PIXELS IMAGE WIDTH, for <p> or <div>??max-width? */
-
 
 .selected {
 	color: #7fc5e6 !important;
@@ -277,6 +274,31 @@ margin-left: auto;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
+
+
+#dwellTek {
+	text-align: left !important;
+}
+
+@media screen and (max-width: 990px)
+{
+	#row1 .serviceContainer {
+		height: 160px !important;
+	}
+
+	#row2 .serviceContainer {
+		height: 88px;
+	}
+
+	#row3 .serviceContainer {
+		height: 148px;
+	}
+
+	#row4 .serviceContainer {
+		height: 195px;
+	}
+}
+
 
 @media screen and (max-width: 501px)
 {
