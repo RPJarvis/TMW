@@ -1,4 +1,4 @@
-body{
+body {
 	background: #f6f6f6;
 	color: #666666;
 	font-family:"Georgia", sans-serif;
@@ -21,8 +21,6 @@ body{
 
 #inner-container {
 	margin-top: 60px;
-	padding-left: 0px;
-	padding-right: 0px;
 }
 
 
@@ -45,20 +43,12 @@ body{
     margin: 0 auto;
 }
 
-.slide {
-	width: 100% !important;
-	height: 100% !important;
-}
 
 .container-fluid{
-	margin-right: 0px;
-	margin-left: 0px;
-	padding-right: 0px;
-	padding-left: 0px;
-}
-
-#row1 #row2 #row3 #row4 {
-	height: 70px;
+	margin-right: 0;
+	margin-left: 0;
+	padding-right: 0;
+	padding-left: 0;
 }
 
 #row1 div div {
@@ -95,16 +85,19 @@ h2{
 	margin: 0 0 10px;
 	text-transform: uppercase;
 }
-h3{
+
+h3 {
 	color: #7fc5e6;
 	font: bold 14pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0 0 10px;
 	text-transform: uppercase;
 }
-a{
+
+a {
 	color: #b0b0b0;
 	text-decoration: none;
 }
+
 a:hover{color: #7fc5e6;}
 
 
@@ -121,11 +114,10 @@ a:hover{color: #7fc5e6;}
 	border-top: solid 1px #eeeeee;
 }
 
-#about, #clients, #services, #partners, #contact{padding-bottom: 60px;}
-#contact{margin-bottom: 100px;}
+#about, #clients, #services, #partners, #contact {padding-bottom: 60px;}
+#contact {margin-bottom: 100px;}
 
 #carousel-container {
-
 	padding-right: 0px;
 	padding-left: 0px;
 	margin-right: 0px;
@@ -283,11 +275,11 @@ a:hover{color: #7fc5e6;}
 @media screen and (max-width: 990px)
 {
 	#row1 .serviceContainer {
-		height: 160px !important;
+		height: 170px !important;
 	}
 
 	#row2 .serviceContainer {
-		height: 88px;
+		height: 100px;
 	}
 
 	#row3 .serviceContainer {
@@ -295,7 +287,7 @@ a:hover{color: #7fc5e6;}
 	}
 
 	#row4 .serviceContainer {
-		height: 195px;
+		height: 230px;
 	}
 }
 

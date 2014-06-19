@@ -18,9 +18,9 @@ $(document).ready(function(){
     }
   });
 
-
   //TODO:this is focusing in li item rather than link item maybe use li a active insterad of javascrizipt q
   $('#navbar').on('activate.bs.scrollspy', function(){
+    //should the ul below be a li
     $(this).closest('ul').find('.selected').removeClass('selected');
     $(this).addClass('selected');
   })
@@ -33,7 +33,6 @@ $(document).ready(function(){
 
     $(this).closest('ul').find('.selected').removeClass('selected');
     $(this).addClass('selected');
-    //Modify css here??
 
     return false;
   });
