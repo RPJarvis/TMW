@@ -51,6 +51,8 @@ body {
 	padding-left: 0;
 }
 
+
+
 #row1 div div {
 	height: 200px;
 }
@@ -115,27 +117,13 @@ a:hover{color: #7fc5e6;}
 }
 
 #about, #clients, #services, #partners, #contact {padding-bottom: 60px;}
-#contact {margin-bottom: 100px;}
-
-#carousel-container {
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-right: 0px;
-	margin-left: 0px;
-}
-
-.carousel {
-	margin-right: 0px !important;
-	padding-right: 0px !important;
-	margin-left: 0px;
-	padding-left: 0px;
-}
+#contact {margin-bottom: 80px;}
 
 .slide{
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-right:0px;
-	padding-left: 0px;
+  margin-top: 8px;
+	width: 100% !important;
+	height: 100% !important;
+
 }
 
 .sectionNumber{
@@ -155,6 +143,14 @@ a:hover{color: #7fc5e6;}
 	font-size: small;
 }
 
+#carousel-container {
+
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
 .serviceContainer {
 	background: white;
 	border: 1px solid;
@@ -164,8 +160,8 @@ a:hover{color: #7fc5e6;}
 
 .textFormat {
 	text-align: left;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 12px;
+	padding-right: 12px;
 	padding-top: 8px;
 }
 

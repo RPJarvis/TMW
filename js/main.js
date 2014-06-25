@@ -23,7 +23,7 @@ $(document).ready(function(){
     //should the ul below be a li
     $(this).closest('ul').find('.selected').removeClass('selected');
     $(this).addClass('selected');
-  })
+  });
 
   //TODO: make link padding stick, link scrolling with links without clicks
   $('li a').click(function() {
