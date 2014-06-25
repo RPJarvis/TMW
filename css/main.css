@@ -19,6 +19,11 @@ body {
 	font: normal 12pt "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.active a {
+	background-color:#737373 !important;
+	color: #7fc5e6 !important;
+}
+
 #inner-container {
 	margin-top: 60px;
 }
@@ -43,15 +48,12 @@ body {
     margin: 0 auto;
 }
 
-
 .container-fluid{
 	margin-right: 0;
 	margin-left: 0;
 	padding-right: 0;
 	padding-left: 0;
 }
-
-
 
 #row1 div div {
 	height: 200px;
@@ -70,8 +72,8 @@ body {
 }
 
 #navbar {
-		padding-right: 20px !important;
-		padding-top: 10px;
+	padding-right: 20px !important;
+	padding-top: 10px;
 }
 
 h1{
@@ -102,35 +104,32 @@ a {
 
 a:hover{color: #7fc5e6;}
 
-
 #about, #clients, #services, #services2, #partners, #contact, #footer{
 	background: #f6f6f6;
 	border-bottom: solid 1px #eeeeee;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 40px;
-  text-align: center;
-
+    text-align: center;
 }
 #about, #clients, #partners, #contact{
 	border-top: solid 1px #eeeeee;
 }
 
 #about, #clients, #services, #partners, #contact {padding-bottom: 60px;}
-#contact {margin-bottom: 80px;}
+#contact {margin-bottom: 100px;}
 
 .slide{
-  margin-top: 8px;
+    margin-top: 8px;
 	width: 100% !important;
 	height: 100% !important;
-
 }
 
 .sectionNumber{
 	background: #7fc5e6;
 	border-bottom: solid 1px #6ea9c5;
 	color: #ffffff;
-	margin: 0 0 0 0px;
+	margin: 0 0 0 0;
 	padding: 5px 10px 5px 20px;
 	text-transform: uppercase;
 }
@@ -144,11 +143,10 @@ a:hover{color: #7fc5e6;}
 }
 
 #carousel-container {
-
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-right: 0px;
-	margin-left: 0px;
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: 0;
+	margin-left: 0;
 }
 
 .serviceContainer {
@@ -180,10 +178,6 @@ a:hover{color: #7fc5e6;}
 .aboutUpper {
 	max-width: 520px;
 
-}
-
-.selected {
-	color: #7fc5e6 !important;
 }
 
 #buttonContainer {
@@ -225,8 +219,8 @@ a:hover{color: #7fc5e6;}
 	border: 1px solid;
 	border-color: #E5E5E4;
 	margin-bottom: 20px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: 0;
+	margin-right: 0;
 	padding-left: 10px;
 	padding-right: 10px;
 
@@ -263,7 +257,6 @@ a:hover{color: #7fc5e6;}
 	padding-bottom: 15px;
 }
 
-
 #dwellTek {
 	text-align: left !important;
 }
@@ -286,7 +279,6 @@ a:hover{color: #7fc5e6;}
 		height: 230px;
 	}
 }
-
 
 @media screen and (max-width: 501px)
 {
