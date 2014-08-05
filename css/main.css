@@ -68,13 +68,14 @@ body {
 }
 
 #row4 div div {
-	height: 260px;
+	height: 280px;
 }
 
 #navbar {
 	padding-right: 20px !important;
 	padding-top: 10px;
 }
+
 
 h1{
 	color: #7fc5e6;
@@ -173,11 +174,11 @@ a:hover{color: #7fc5e6;}
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 520px;
+    height: 130px;
 }
 
 .aboutUpper {
 	max-width: 520px;
-
 }
 
 #buttonContainer {
