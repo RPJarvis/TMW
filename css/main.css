@@ -56,7 +56,7 @@ body {
 }
 
 #row1 div div {
-	height: 200px;
+	height: 220px;
 }
 
 #row2 div div {
@@ -64,11 +64,11 @@ body {
 }
 
 #row3 div div {
-	height: 170px;
+	height: 200px;
 }
 
 #row4 div div {
-	height: 280px;
+	height: 300px;
 }
 
 #navbar {
@@ -174,7 +174,7 @@ a:hover{color: #7fc5e6;}
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 520px;
-    height: 130px;
+    height: 170px;
 }
 
 .aboutUpper {
