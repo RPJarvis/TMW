@@ -43,7 +43,7 @@
                 <li><a href="#services" class="headerLink">Services</a></li>
                 <li><a href="#about" class="headerLink">About</a></li>
                 <li><a href="#clients" class="headerLink">Clients</a></li>
-                <li><a href="#partners" class="headerLink">Partners</a></li>
+                <!--<li><a href="#partners" class="headerLink">Partners</a></li>-->
                 <li><a href="#contact" class="headerLink">Contact</a></li>
                 <li><a href="http://proposals.thousandmileswest.com/login" class="headerLink">Login</a></li>
               </ul>
@@ -252,11 +252,13 @@
           </div>
         </div>
         <div class="col-md-4" id="buttonContainer">
+        <a href="#contact">
           <div id="bigButton">
             <br />
             <br />
-              <a href="mailto:info@thousandmileswest.com" target="_top">Get in Touch Today</a>
+              Get in Touch Today
           </div>
+        </a>
       </div>
     </div>
     <div id="about" class="container-fluid row sectionContainer">
@@ -339,7 +341,7 @@
         </div>
       </div>
     </div>
-    <div id="partners" class="container-fluid sectionContainer">
+    <!--<div id="partners" class="container-fluid sectionContainer">
       <h3>Partners</h3>
       <div class="container-fluid row">
         <div class="col-md-6">
@@ -391,45 +393,56 @@
           </div>
         </div>
       </div>
-    </div>
-    <div id="contact" class="container-fluid sectionContainer">
-      <?php 
-        function spam_check($field){
-        	if (filter_var($field, FILTER_VALIDATE_EMAIL)){
-        		return filter_var($field, FILTER_SANITIZE_EMAIL) ? True : False;
-        	} else {
-        		return False;
-        	}
-        }
-      ?>
-      <h2>Contact TMW</h2>
-      <?php 
-      	if (!isset($_POST["submit"])) {
-      ?>	
-      	<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
-      		From: <input type="text" name="from"><br>
-      		Subject: <input type="text" name="subject"><br>
-      		Message: <textarea rows="12" cols="40" name="message"></textarea><br>
-      		<input type="submit" name="submit" value="Send Email">
-      	</form>
-      <?php  	
-      	} else {
-      		if(isset($_POST["from"])) {
-      			$mailcheck = spam_check($_POST["from"]);
-      			if($mailcheck == False) {
-      				echo "Invalid input";
-      			} else {
-      				$from = $_POST["from"];
-      				$subject = $_POST["subject"];
-      				$message = $_POST["message"]; 
-      				$message = wordwrap($message, 70);
+    </div>-->
+    <div id="contact" class="container-fluid sectionContainer row">
+    	<div class="col-md-12">
+	      <?php 
+	        function spam_check($field){
+	        	if (filter_var($field, FILTER_VALIDATE_EMAIL)){
+	        		return filter_var($field, FILTER_SANITIZE_EMAIL) ? True : False;
+	        	} else {
+	        		return False;
+	        	}
+	        }
+	      ?>
+	      <h3>Contact TMW</h3>
+	      <?php 
+	      	if (!isset($_POST["submit"])) {
+	      ?>	
+	      	<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+	      		<div class="form-group">
+	      			<label for="from">From:</label>
+	      			<input class="form-control" type="text" name="from"><br>
+	      		</div>
+	      		<div class="form-group">
+	      			<label for="subject">Subject:</label><br>
+	      			<input type="text" name="subject"><br>
+	      		</div>
+	      		<div class="form-group">
+	      			<label for="message">Message:</label><br>
+	      			<textarea rows="12" cols="40" name="message"></textarea><br>
+	      		</div>
+	      		<input type="submit" name="submit" value="Send Email">
+	      	</form>
+	      <?php  	
+	      	} else {
+	      		if(isset($_POST["from"])) {
+	      			$mailcheck = spam_check($_POST["from"]);
+	      			if($mailcheck == False) {
+	      				echo "Invalid input";
+	      			} else {
+	      				$from = $_POST["from"];
+	      				$subject = $_POST["subject"];
+	      				$message = $_POST["message"]; 
+	      				$message = wordwrap($message, 70);
 
-      				mail("rjarvis1@cnm.edu", $subject, $message, "From: $from\n");
-      				echo "Thank you for your email";
-      			}
-      		}
-      	}
-      ?>
+	      				mail("rjarvis1@cnm.edu", $subject, $message, "From: $from\n");
+	      				echo "Thank you for your email";
+	      			}
+	      		}
+	      	}
+	      ?>
+	    </div>
     </div>
     <footer id="footer" class="sectionContainer">
       <p>&copy 2014 Thousand Miles West</p>

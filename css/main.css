@@ -189,7 +189,7 @@ a:hover{color: #7fc5e6;}
 #bigButton {
 	background: #c0e2f2;
 	border: solid 1px #7fc5e6;
-	color: #ffffff;
+	color: #ffffff !important;
 	cursor: pointer;
 	display: block;
 	font: bold 18pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -202,17 +202,8 @@ a:hover{color: #7fc5e6;}
 
 #bigButton:hover {
 	background: #7fc5e6;
-	border: solid 1px #7fc5e6;
-	color: #ffffff;
-	cursor: pointer;
-	display: block;
-	font: bold 18pt "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	line-height: 18pt;
-	margin: 0;
-	padding: 45px 20px 60px;
-	text-align: center;
-	text-transform: uppercase;
 }
+
 
 .partnerContainer {
 	padding-top: 18px;
@@ -260,6 +251,14 @@ a:hover{color: #7fc5e6;}
 
 #dwellTek {
 	text-align: left !important;
+}
+
+form {
+	text-align:center;
+}
+
+.form-control {
+	max-width: 480px;
 }
 
 @media screen and (max-width: 990px)
