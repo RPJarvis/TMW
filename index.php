@@ -275,6 +275,7 @@
         </div>
       </div>
       <div class="col-md-6 container-fluid">
+      
         <img class="img-responsive" src="/images/nick.png" />
         <div class="aboutContainer container-fluid">
           <p class="textFormat">BA in Mass Communication - Advertising, Former Head of IT and
@@ -282,6 +283,7 @@
             Partner at Thousand Miles West
           </p>
         </div>
+
       </div>
     </div>
     <div id="clients" class="container-fluid sectionContainer">
@@ -338,14 +340,26 @@
           </p>
         </div>
         <div class="col-md-6">
+        	<div class="clientContainer">
+        		<img src="/images/solaralliancelogo-bw.png" />
+        		<p></p>
+        	</div>
+        </div>
+      </div>
+      <div class="container-fluid row">
+        <div class="col-md-4">
           <div class="clientContainer">
             <img src="/images/borderSolar.png" />
             <p>Border Solar</p>
           </div>
+        </div>
+        <div class="col-md-4">
           <div class="clientContainer">
             <img src="/images/joule.png" />
             <p>Joule Energy</p>
           </div>
+        </div>
+        <div class="col-md-4">
           <div class="clientContainer">
             <img src="/images/sunValleySolar.png" />
             <p>Sun Valley Solutions</p>
