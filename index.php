@@ -287,6 +287,18 @@
     <div id="clients" class="container-fluid sectionContainer">
       <h3>Clients</h3>
       <div class="container-fluid row">
+      	<div class="col-md-6 clientContainer">
+      		<img src="/images/3rhinologo-bw.png" />
+      		<p></p>
+      	</div>
+      	<div class="col-md-6 ">
+      		<div class="clientContainer">
+	      		<img src="/images/positiveenergylogo-bw.png"/>
+	      		<p></p>
+      		</div>
+      	</div>
+      </div>
+      <div class="container-fluid row">
         <div class="col-md-6 clientContainer">
           <img src="/images/dwelltech.png" />
           <p class="alignLeft">
