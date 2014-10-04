@@ -261,30 +261,33 @@
         </a>
       </div>
     </div>
-    <div id="about" class="container-fluid row sectionContainer">
-      <h3>Who we Are</h3>
-      <div class="col-md-6 container-fluid">
-        <img class="img-responsive" src="/images/james.png" />
-        <div class="aboutContainer container-fluid">
-          <p class="textFormat">An Entrepreneur from UNM's Anderson School
-            of Management and former Director of Business Development at
-            Consolidated Solar Technologies. James has helped solar integrators
-            around the country discover and address their needs in an ever
-            changing solar economic climate.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-6 container-fluid">
-      
-        <img class="img-responsive" src="/images/nick.png" />
-        <div class="aboutContainer container-fluid">
-          <p class="textFormat">BA in Mass Communication - Advertising, Former Head of IT and
-            Marketing Director for Consolidated Solar Technologies. Currently
-            Partner at Thousand Miles West
-          </p>
-        </div>
-
-      </div>
+    <div id="about" class="container-fluid row sectionContainer">    	
+	    <h3>Who we Are</h3>
+	    <div class="bio-container container-fluid col-md-6">
+	      <div class="container-fluid">
+	        <img class="img-responsive" src="/images/james.png" />
+	        <div class="aboutContainer container-fluid">
+	          <p class="textFormat">An Entrepreneur from UNM's Anderson School
+	            of Management and former Director of Business Development at
+	            Consolidated Solar Technologies. James has helped solar integrators
+	            around the country discover and address their needs in an ever
+	            changing solar economic climate.
+	          </p>
+	        </div>
+	      </div>
+	    </div>
+	    <div>
+	    <div class="bio-container container-fluid col-md-6">
+	      <div class="container-fluid">	      
+	        <img class="img-responsive" src="/images/nick.png" />
+	        <div class="aboutContainer container-fluid">
+	          <p class="textFormat">BA in Mass Communication - Advertising, Former Head of IT and
+	            Marketing Director for Consolidated Solar Technologies. Currently
+	            Partner at Thousand Miles West
+	          </p>
+	        </div>
+	      </div>
+	    </div>
     </div>
     <div id="clients" class="container-fluid sectionContainer">
       <h3>Clients</h3>
