@@ -137,7 +137,7 @@
     </div>
     <div id="services2" class="container-fluid sectionContainer">
       <!--services row1-->
-      <div class="container-fluid row" id="row1">
+      <div class="row" id="row1">
         <!-- 3x4 grid -->
         <div class="col-md-4">
           <div class="serviceContainer">
@@ -151,7 +151,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="serviceContainer container-fluid">
+          <div class="serviceContainer">
             <h5 class="sectionNumber">Financing</h5>
             <p class="textFormat">Having a good financing or lease program is necessary in
               today's market. We can work with our national partners to
@@ -160,7 +160,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="serviceContainer container-fluid">
+          <div class="serviceContainer">
             <h5 class="sectionNumber">Customer Relationship Management</h5>
             <p class="textFormat">TMW offers custom CRM and project management tools
               designed and implemented across multiple platforms.
@@ -171,14 +171,14 @@
       <!--services row two-->
       <div class="container-fluid row" id="row2">
         <div class="col-md-4">
-          <div class="serviceContainer container-fluid" id="row2">
+          <div class="serviceContainer" id="row2">
             <h5 class="sectionNumber">Training</h5>
             <p class="textFormat">TMW offers comprehensive sales, operations, and management training.
             </p>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="serviceContainer container-fluid">
+          <div class="serviceContainer">
             <h5 class="sectionNumber">Photography</h5>
             <p class="textFormat">We offer professional photography services for use on your website
               or in marketing collateral.
@@ -186,7 +186,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="serviceContainer container-fluid">
+          <div class="serviceContainer">
             <h5 class="sectionNumber">System Design</h5>
             <p class="textFormat">We can handle overflow solar system design work for submission
               to your local jurisdictions.
@@ -197,7 +197,7 @@
       <!--services div row3-->
       <div class="container-fluid row" id="row3">
         <div class="col-md-4">
-          <div class="serviceContainer container-fluid">
+          <div class="serviceContainer">
             <h5 class="sectionNumber">International Partners</h5>
             <p class="textFormat">We have relationships with leading solar panel manufacturers,
               including SunPower and Bosch/Aleo, to allow you to bill all or
@@ -206,7 +206,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="serviceContainer container-fluid">
+          <div class="serviceContainer">
             <h5 class="sectionNumber">Advertising and Marketing</h5>
             <p class="textFormat">We offer support in planning, designing, and executing marketing
               campaigns. TMW will help you make the most of every single marketing
@@ -215,7 +215,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="serviceContainer container-fluid">
+          <div class="serviceContainer">
             <h5 class="sectionNumber">Collateral</h5>
             <p class="textFormat">Great design on your marketing and tradeshow collateral is
               imperative. We work with you to maintain your previous brand
@@ -291,18 +291,7 @@
     </div>
     <div id="clients" class="container-fluid sectionContainer">
       <h3>Clients</h3>
-      <div class="container-fluid row">
-      	<div class="col-md-6 clientContainer">
-      		<img src="/images/3rhinologo-bw.png" />
-      		<p></p>
-      	</div>
-      	<div class="col-md-6 ">
-      		<div class="clientContainer">
-	      		<img src="/images/positiveenergylogo-bw.png"/>
-	      		<p></p>
-      		</div>
-      	</div>
-      </div>
+
       <div class="container-fluid row">
         <div class="col-md-6 clientContainer">
           <img src="/images/dwelltech.png" />
@@ -348,6 +337,19 @@
         		<p></p>
         	</div>
         </div>
+        <div class="container-fluid row">
+      	
+      	<div class="col-md-6 ">
+      		<div class="clientContainer">
+	      		<img src="/images/positiveenergylogo-bw.png"/>
+	      		<p></p>
+      		</div>
+      		<div class="clientContainer">
+      		<img src="/images/3rhinologo-bw.png" />
+      		<p></p>
+      	</div>
+      	</div>
+      </div>
       </div>
       <div class="container-fluid row">
         <div class="col-md-4">
@@ -440,8 +442,8 @@
 	      ?>	
 	      	<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
 	      		<div class="form-group">
-	      			<label for="from">From:</label>
-	      			<input class="form-control" type="text" name="from"><br>
+	      			<label for="from">From:</label><br>
+	      			<input type="text" name="from"><br>
 	      		</div>
 	      		<div class="form-group">
 	      			<label for="subject">Subject:</label><br>
@@ -465,7 +467,7 @@
 	      				$message = $_POST["message"]; 
 	      				$message = wordwrap($message, 70);
 
-	      				mail("rjarvis1@cnm.edu", $subject, $message, "From: $from\n");
+	      				mail("info@thousandmileswest.com", $subject, $message, "From: $from\n");
 	      				echo "Thank you for your email";
 	      			}
 	      		}
