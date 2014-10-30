@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thousand Miles West</title>
 
-    <!-- Bootstrap, then css -->
+    <!-- Bootstrap 3.1.1, then css -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
@@ -276,7 +276,7 @@
 	        </div>
 	      </div>
 	    </div>
-	    <div>
+	    
 	    <div class="bio-container container-fluid col-md-6">
 	      <div class="container-fluid">	      
 	        <img class="img-responsive" src="/images/nick.png" />
