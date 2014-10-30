@@ -291,7 +291,6 @@
     </div>
     <div id="clients" class="container-fluid sectionContainer">
       <h3>Clients</h3>
-
       <div class="container-fluid row">
         <div class="col-md-6 clientContainer">
           <img src="/images/dwelltech.png" />
@@ -337,39 +336,30 @@
         		<p></p>
         	</div>
         </div>
-        <div class="container-fluid row">
-      	
-      	<div class="col-md-6 ">
-      		<div class="clientContainer">
-	      		<img src="/images/positiveenergylogo-bw.png"/>
-	      		<p></p>
+        <div class="container-fluid row">     	
+	      	<div class="col-md-6 ">
+	      		<div class="clientContainer">
+		      		<img src="/images/positiveenergylogo-bw.png"/>
+		      		<p></p>
+	      		</div>
+	      		<div class="clientContainer">
+	      			<img src="/images/3rhinologo-bw.png" />
+	      			<p></p>
+	      		</div>
+	      		<div class="clientContainer">
+            		<img src="/images/borderSolar.png" />
+            		<p>Border Solar</p>
+          		</div>
+          		<div class="clientContainer">
+            		<img src="/images/joule.png" />
+            		<p>Joule Energy</p>
+          		</div>
+          		<div class="clientContainer">
+            		<img src="/images/sunValleySolar.png" />
+            		<p>Sun Valley Solutions</p>
+          		</div>
       		</div>
-      		<div class="clientContainer">
-      		<img src="/images/3rhinologo-bw.png" />
-      		<p></p>
       	</div>
-      	</div>
-      </div>
-      </div>
-      <div class="container-fluid row">
-        <div class="col-md-4">
-          <div class="clientContainer">
-            <img src="/images/borderSolar.png" />
-            <p>Border Solar</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="clientContainer">
-            <img src="/images/joule.png" />
-            <p>Joule Energy</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="clientContainer">
-            <img src="/images/sunValleySolar.png" />
-            <p>Sun Valley Solutions</p>
-          </div>
-        </div>
       </div>
     </div>
     <!--<div id="partners" class="container-fluid sectionContainer">
